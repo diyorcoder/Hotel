@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyorbek Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="hotell.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="logo"></a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#booking" class="nav-link">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#explore hotels" class="nav-link">Explore hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#luxorious" class="nav-link"> Luxorious</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="home" class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h1 class="title">Discover</h1>
+                    <h2 class="subtitle">Luxury hotels</h2>
+                </div>
+                <a href="#" class="btn btn-gradient">Explore now
+                <span class="dots"></span>
+            </a>
+            </div>
+        </div>
+        <section id="booking" class="booking">
+            <div class="container">
+                <form action="" class="form">
+                    <div class="input-group">
+                        <label for="destination" class="input-label">Destination</label>
+                        <input type="text" class="input" id="destination">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in" class="input-label">Check in</label>
+                        <input type="date" class="input" id="check-in">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out" class="input-label">Check-out</label>
+                        <input type="text" class="input" id="check-out">
+                    </div>
+                    <div class="input-group">
+                        <label for="adults" class="input-label">Adults</label>
+                        <select class="options" id="adults">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="children" class="input-label">Children</label>
+                        <select class="options" id="children">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn form-btn btn-purple">Search</button>
+                </form>
+            </div>
+        </section>
+        <section id="explore hotels" class="hotels">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Explore</span>
+                    <span class="sub-heading">Our beautiful hotels</span>
+                </h5>
+                <div class="grid">
+                    <div class="grid-item featured-hotels">
+                        <img src="hotelimage.jfif" class="hotel-image" alt="">
+                        <h5 class="hotel-name">Diyorbek Hotel</h5>
+                        <span class="hotel-rating">From $200/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="#" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="garden.jfif" class="hotel-image" alt="">
+                        <h5 class="hotel-name">Enchanted Garden</h5>
+                        <span class="hotel-rating">From $300/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                        </div>
+                        <a href="#" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="paradise.jpg" class="hotel-image" alt="">
+                        <h5 class="hotel-name">The Beach</h5>
+                        <span class="hotel-rating">From $350/Morning</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="#" class="btn btn-gradient">Book Now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="luxorious" class="offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="discount">
+                        40% off
+                    </div>
+                    <h5 class="hotel-name">The Luxorious</h5>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <p class="paragraph">
+                        In this  Diyorbek hotel we can observe a contemporary way of combining luxury with modern pieces with a very luxurious character and that leave us impressed by all its Design. 
+                    </p>
+                    <a href="#" class="btn btn-gradient">Redeem Offer
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Luxorious</span>
+                    <span class="sub-heading">Affordable rooms</span>
+                </h5>
+                <div class="grid roms-grid">
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="room2.jfif" alt="">
+                            <h5 class="room-name">Diyorbek Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                In this  Diyorbek hotel we can observe a contemporary way of combining luxury with modern pieces with a very luxurious character and that leave us impressed by all its Design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="room.jpg" alt="">
+                            <h5 class="room-name">Diyorbek Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                In this  Diyorbek hotel we can observe a contemporary way of combining luxury with modern pieces with a very luxurious character and that leave us impressed by all its Design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="room2.jfif" alt="">
+                            <h5 class="room-name">Diyorbek Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                In this  Diyorbek hotel we can observe a contemporary way of combining luxury with modern pieces with a very luxurious character and that leave us impressed by all its Design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="room.jpg" alt="">
+                            <h5 class="room-name">Diyorbek Hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$350 <span class="per-night">Per night</span></span>
+                            <p class="paragraph">
+                                In this  Diyorbek hotel we can observe a contemporary way of combining luxury with modern pieces with a very luxurious character and that leave us impressed by all its Design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Contact</span>
+                    <span class="sub-heading">Get in touch with us</span>
+                </h5>
+                <div class="contact-content">
+                    <form action="" class="form contact-form">
+                        <div class="input-group-wrap">
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Name"  required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="E-mail"  required>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                            <div class="input-group">
+                                <input type="email" class="input" placeholder="Subject"  required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="input" id="" cols="30" rows="8" placeholder="E-mail" required></textarea>
+                                <span class="bar"></span>
+                            </div>
+                            <button type="submit" class="btn form-btn btn-purple">Send Messege
+                                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
